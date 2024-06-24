@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<!-- Designined by CodingLab | www.youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>📚 HIJULI HIGH SCHOOL 📝</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <!-- Boxicons fontawesome Link -->
+    <script src="https://kit.fontawesome.com/70a616b537.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <!-- 
+			=============================================
+				Theme Header
+			============================================== 
+			-->
+    <nav>
+      <div class="navbar">
+        <i class="bx bx-menu"></i>
+        <div class="logo"><a href="home.html">HIJULI HIGH SCHOOL</a></div>
+        <div class="nav-links">
+          <div class="sidebar-logo">
+            <span class="logo-name">HIJULI HIGH SCHOOL</span>
+            <i class="bx bx-x"></i>
+          </div>
+          <ul class="links">
+            <li><a href="home.html">HOME</a></li>
+            <li>
+              <a href="about.html">ABOUT US</a>
+              <i class="bx bxs-chevron-down htmlcss-arrow arrow"></i>
+              <ul class="htmlCss-sub-menu sub-menu">
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="notices.html"> NOTICES</a></li>
+                <li><a href="techers.html">TECHERS</a></li>
+                <li class="more">
+                  <span
+                    ><a href="#">DEPARTMENT</a>
+                    <i class="bx bxs-chevron-right arrow more-arrow"></i>
+                  </span>
+                  <ul class="more-sub-menu sub-menu">
+                    <li><a href="science.html">SCIENCE</a></li>
+                    <li><a href="arts.html">ARTS</a></li>
+                    <li><a href="non_techers.HTML">NON TECHERS</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">STUDENTS</a>
+              <i class="bx bxs-chevron-down js-arrow arrow"></i>
+              <ul class="js-sub-menu sub-menu">
+                <li><a href="admission.html">ADMISSIONS</a></li>
+                <li><a href="student_zone.html">STUDENTS ZONE</a></li>
+                <li><a href="student_reviwe.html">STUDENTS REVIWE</a></li>
+                <li><a href="devloper.html">DEVLOPER</a></li>
+              </ul>
+            </li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="contact_us.html">CONTACT US</a></li>
+          </ul>
+        </div>
+        <div class="search-box">
+          <i class="bx bx-search"></i>
+          <div class="input-box">
+            <input type="text" placeholder="Search..." />
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- 
+			=============================================
+				       HOME PAGE
+			============================================== 
+			-->
+    <section class="main swiper mySwiper">
+      <div class="wrapper swiper-wrapper">
+        <div class="slide swiper-slide">
+          <img src="IMAGES/school/hijuli1.jpg" alt="" class="image" />
+          <div class="image-data">
+            <span class="text">WELL COME TO</span>
+            <h2>
+              HIJULI HIGH SCHOOL (H.S) <br />
+              <span class="text">village - HIJULI</span>
+            </h2>
+            <a href="about.html" class="button">About Us</a>
+          </div>
+        </div>
+        <div class="slide swiper-slide">
+          <img src="IMAGES/school/S02.jpg" alt="" class="image" />
+          <div class="image-data">
+            <span class="text">WELL COME TO</span>
+            <h2>HIJULI HIGH SCHOOL (H.S)<br /></h2>
+            <a href="about.html" class="button">About Us</a>
+          </div>
+        </div>
+        <div class="slide swiper-slide">
+          <img src="IMAGES/school/sc1.jpeg" alt="" class="image" />
+          <div class="image-data">
+            <span class="text">WELL COME TO.</span>
+            <h2>
+              HIJULI HIGH SCHOOL (H.S)<br />
+              <span class="text">WELL COME TO.</span>
+            </h2>
+            <a href="about.html" class="button">About Us</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-button-next nav-btn"></div>
+      <div class="swiper-button-prev nav-btn"></div>
+      <div class="swiper-pagination"></div>
+    </section>
+
+    <!-- Swiper JS -->
+    <script src="JS/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper('.mySwiper', {
+        slidesPerView: 1,
+        loop: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+    </script>
+    <!--
+			=====================================================
+				About us Section
+			=====================================================-->
+
+
+    <section class="about" id="about">
+      <div class="content">
+        <div class="title"><span>About HIJULI HIGH SCHOOL(H.S)</span></div>
+        <div class="about-details">
+          <div class="left">
+            <img src="IMAGES/techer/had.jpg" alt="" />
+          </div>
+          <div class="right">
+            <div class="topic"><b>হিজুলী উচচ বিদ্যালয় (উচ্চ মাধ্যমিক)</b></div>
+            <p> <Font size ="4">
+              <b> হিজুলী উচচ বিদ্যালয় (উচ্চ মাধ্যমিক) 1965 সালে </b>প্রতিষ্ঠিত হয়েছিল এবং এটি শিক্ষা বিভাগ দ্বারা পরিচালিত হয়। 
+               এটি গ্রামীণ এলাকায় অবস্থিত।<b> এটি পশ্চিমবঙ্গের পুরুলিয়া জেলার হুরা ব্লকের হিজুলী  গ্রামে অবস্থিত।</b> স্কুলটি <b>5</b> থেকে<b>12</b> পর্যন্ত গ্রেড নিয়ে গঠিত। স্কুলটি সহ-শিক্ষামূলক এবং এতে প্রাক-প্রাথমিক বিভাগ সংযুক্ত নেই। এই বিদ্যালয়ে শিক্ষার মাধ্যম<b>বাংলা। </b> 
+               এই স্কুলটি সব আবহাওয়ার রাস্তা দিয়ে যাওয়া যায়। এই স্কুলের শিক্ষাবর্ষ শুরু হয় <b>এপ্রিল মাসে।</b> 
+           বিদ্যালয়টিতে সরকারি ভবন রয়েছে। এটি শিক্ষামূলক উদ্দেশ্যে <b>10টি</b> শ্রেণীকক্ষ পেয়েছে। সব ক্লাসরুম ভালো অবস্থায় আছে। এটিতে অশিক্ষা কার্যক্রমের জন্য আরও 2টি কক্ষ রয়েছে। বিদ্যালয়ে প্রধান শিক্ষক/শিক্ষকের জন্য একটি পৃথক কক্ষ রয়েছে।
+            বিদ্যালয়টির আংশিক সীমানা প্রাচীর রয়েছে। বিদ্যালয়ে বৈদ্যুতিক সংযোগ রয়েছে। স্কুলে পানীয় জলের উৎস হ্যান্ড পাম্প এবং এটি কার্যকরী। স্কুলে 1টি ছেলেদের টয়লেট আছে এবং এটি কার্যকরী।
+             এবং 1টি মেয়েদের টয়লেট এবং এটি কার্যকরী। স্কুলে খেলার মাঠ আছে। বিদ্যালয়টির একটি গ্রন্থাগার রয়েছে এবং এর গ্রন্থাগারে 1911টি বই রয়েছে। বিদ্যালয়ে পাঠদান ও শেখার উদ্দেশ্যে কোন<b> কম্পিউটার</b> রয়েছে। বিদ্যালয়ে কম্পিউটার সহায়তাপ্রাপ্ত শিক্ষা ল্যাব আছে ।
+            স্কুল প্রাঙ্গনে মিড-ডে মিল সরবরাহ করা হয় এবং প্রস্তুত করা হয়।
+            </p>
+            <div class="button">
+              <button>More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+    <!--=====================================================
+				    My Services
+=====================================================-->
+    <section class="services" id="services">
+      <div class="content">
+        <div class="title"><span>My Services</span></div>
+        <div class="boxes">
+          <div class="box">
+            <div class="icon">
+
+              <i class="fa-solid fa-people-roof"></i>
+            </div>
+            <div class="topic">Basic Level</div>
+            <p>
+              HIJULI HIGH School offers the Basic Level Education for grades 5 to 8, providing a
+              fundamental academic foundation for the children aged between 5 to 11
+            </p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <div class="topic">Secondary Level</div>
+            <p>
+              HIJULI HIGH School places significant emphasis on Secondary Level Education, catering
+              to students in grades 9 to 12. This crucial stage , also known as high
+            </p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fa-solid fa-computer"></i>
+            </div>
+            <div class="topic">computer classrooms</div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio,
+              qui voluptatem eligendi?
+            </p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fa-solid fa-person-circle-question"></i>
+            </div>
+            <div class="topic">Mission</div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio,
+              qui voluptatem eligendi?
+            </p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fa-solid fa-braille"></i>
+            </div>
+            <div class="topic">Vision</div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio,
+              qui voluptatem eligendi?
+            </p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fa-regular fa-calendar-check"></i>
+            </div>
+            <div class="topic">Future</div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio,
+              qui voluptatem eligendi?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <!--=====================================================
+				    ACHIVMENT
+=====================================================-->
+    <section class="skills" id="skills">
+      <div class="content">
+        <div class="title"><span>ACHIEVEMENTS</span></div>
+        <div class="container swiper">
+          <div class="slide-container">
+            <div class="card-wrapper swiper-wrapper">
+              <div class="card swiper-slide">
+                <div class="image-box">
+                  <img src="IMAGES/achievement/A1.jpg" alt="" />
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-box">
+                  <img src="IMAGES/achievement/a.jpg" alt="" />
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-box">
+                  <img src="IMAGES/achievement/A3.1.jpg" alt="" />
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-box">
+                  <img src="IMAGES/achievement/A3.jpg" alt="" />
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-box">
+                  <img src="IMAGES/achievement/A4.jpg" alt="" />
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-box">
+                  <img src="IMAGES/achievement/A2.jpg" alt="" />
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-box">
+                  <img src="IMAGES/achievement/A5.jpg" alt="" />
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-box">
+                  <img src="IMAGES/achievement/A6.jpg" alt="" />
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-box">
+                  <img src="IMAGES/achievement/a7.jpg" alt="" />
+                </div>
+              </div>
+              <!-- <div class="card swiper-slide">
+                <div class="image-box">
+                  <img src="IMAGES/student/ariya.jpg" alt="" />
+                </div>
+              </div> -->
+            </div>
+          </div>
+          <div class="swiper-button-next swiper-navBtn"></div>
+          <div class="swiper-button-prev swiper-navBtn"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <!--=====================================================
+				    TOP Services
+=====================================================-->
+
+    <!--=====================================================
+				    GALLERY
+=====================================================-->
+    <section class="skills" id="skills">
+      <div class="content">
+        <div class="title"><span>GALLERY</span></div>
+     
+        <div class="marquee">
+          <ul class="marquee-content">
+            <img src="IMAGES/all.jpg" alt="" />
+            <img src="IMAGES/hijuli1.jpg" alt="" />
+            <img src="IMAGES/indipendent/India 2.jpg" alt="" />
+            <img src="IMAGES/indipendent/ 1.jpg" alt="" />
+            <img src="IMAGES/achievement/a.jpg" alt="" />
+            <img src="IMAGES/achievement/A2.jpg" alt="" />
+            <img src="IMAGES/school/S3.jpg" alt="" />
+            <img src="IMAGES/school/S2.jpg" alt="" />
+            <img src="IMAGES/techer/All 1.jpg" alt="" />
+            <img src="Images/achievement/A3.1.jpg" alt="" />
+            <img src="IMAGES/achievement/a7.jpg" alt="" />
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!--=====================================================
+				    My Services
+=====================================================-->
+
+    <!--=====================================================
+				    FOOTER
+=====================================================-->
+    <footer>
+      <div class="footerContainer">
+        <div class="socialIcons">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fas fa-envelope"></i></a>
+          <a href=""><i class="fas fa-map-marker-alt"></i></a>
+          <a href=""><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="footerNav">
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact_us.html">Contact Us</a></li>
+            <li><a href="student_reviwe.html">Student Reviwe</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footerBottom">
+        <p>Copyright &copy;2024; Designed by <span class="designer"><a href="http://#">ARSED ANSARY</a></span></p>
+      </div>
+    </footer>
+
+    <!----- javascript ------>
+    <script src="JS/app.js"></script>
+  </body>
+</html>

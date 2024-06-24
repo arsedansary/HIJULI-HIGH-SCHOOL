@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<!-- Designined by CodingLab | www.youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>📚 HIJULI HIGH SCHOOL 📝</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <!-- <link rel="stylesheet" href="CSS/style.css"> -->
+    <link rel="stylesheet" href="CSS/techers.css" />
+    <!-- Boxicons fontawesome Link -->
+    <script src="https://kit.fontawesome.com/70a616b537.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <!-- =============================================
+				Theme Header
+============================================== -->
+    <nav>
+      <div class="navbar">
+        <i class="bx bx-menu"></i>
+        <div class="logo"><a href="#">HIJULI HIGH SCHOOL</a></div>
+        <div class="nav-links">
+          <div class="sidebar-logo">
+            <span class="logo-name"> <li>
+              <a href="#">STUDENTS</a>
+              <i class="bx bxs-chevron-down js-arrow arrow"></i>
+              <ul class="js-sub-menu sub-menu">
+                <li><a href="admission.html">ADMISSIONS</a></li>
+                <li><a href="student_zone.html">STUDENTS ZONE</a></li>
+                <li><a href="student_reviwe.html">STUDENTS REVIWE</a></li>
+                <li><a href="devloper.html">DEVLOPER</a></li>
+              </ul>
+            </li> <li>
+              <a href="#">STUDENTS</a>
+              <i class="bx bxs-chevron-down js-arrow arrow"></i>
+              <ul class="js-sub-menu sub-menu">
+                <li><a href="admission.html">ADMISSIONS</a></li>
+                <li><a href="student_zone.html">STUDENTS ZONE</a></li>
+                <li><a href="student_reviwe.html">STUDENTS REVIWE</a></li>
+                <li><a href="devloper.html">DEVLOPER</a></li>
+              </ul>
+            </li></span>
+            <i class="bx bx-x"></i>
+          </div>
+          <ul class="links">
+            <li><a href="home.html">HOME</a></li>
+            <li>
+              <a href="about.html">ABOUT US</a>
+              <i class="bx bxs-chevron-down htmlcss-arrow arrow"></i>
+              <ul class="htmlCss-sub-menu sub-menu">
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="notices.html"> NOTICES</a></li>
+                <li><a href="techers.html">TECHERS</a></li>
+                <li class="more">
+                  <span
+                    ><a href="#">DEPARTMENT</a>
+                    <i class="bx bxs-chevron-right arrow more-arrow"></i>
+                  </span>
+                  <ul class="more-sub-menu sub-menu">
+                    <li><a href="science.html">SCIENCE</a></li>
+                    <li><a href="arts.html">ARTS</a></li>
+                    <li><a href="non_techers.HTML">NON TECHERS</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">STUDENTS</a>
+              <i class="bx bxs-chevron-down js-arrow arrow"></i>
+              <ul class="js-sub-menu sub-menu">
+                <li><a href="admission.html">ADMISSIONS</a></li>
+                <li><a href="student_zone.html">STUDENTS ZONE</a></li>
+                <li><a href="student_reviwe.html">STUDENTS REVIWE</a></li>
+                <li><a href="devloper.html">DEVLOPER</a></li>
+              </ul>
+            </li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="contact_us.html">CONTACT US</a></li>
+          </ul>
+        </div>
+        <div class="search-box">
+          <i class="bx bx-search"></i>
+          <div class="input-box">
+            <input type="text" placeholder="Search..." />
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!----=============================================
+				      STUDENT
+==============================================-->
+
+    <!--=====================================================
+				   Custom Dropdown Select Menu
+=====================================================-->
+    <!--===== Boxicons CSS =====-->
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+
+    <title>Custom Dropdown Select Menu</title>
+    <div class="select-menu">
+      <div class="select-btnw">
+        <span class="sBtn-text">MADHYAMIK RESULT</span>
+        <i class="bx bx-chevron-down"></i>
+      </div>
+
+      <ul class="options">
+        <li class="option">
+          <!-- <i class="bx bxl-github" style="color: #171515"></i> -->
+          <span class="option-text"><a href="madhyamik.html">MADHYAMIK RESULT</a></span>
+        </li>
+        <li class="option">
+          <!-- <i class="bx bxl-instagram-alt" style="color: #e1306c"></i> -->
+          <span class="option-text"><a href="hs_result.html"> H.S RESULT</a></span>
+        </li>
+        <li class="option">
+          <!-- <i class="bx bxl-linkedin-square" style="color: #0e76a8"></i> -->
+          <span class="option-text"><a href="student_zone.html">STUDENTS ZONE</a></span>
+        </li>
+      </ul>
+    </div>
+    <!--=====================================================
+				   student table
+=====================================================-->
+    <div class="tabContainer">
+      <div class="buttonContainer">
+        <button onclick="showPanel(0,'#1F2739')">20224</button>
+        <button onclick="showPanel(1,'#1F2739')">2023</button>
+        <button onclick="showPanel(2,'#1F2739')">2022</button>
+        <button onclick="showPanel(3,'#1F2739')">2021</button>
+        <button onclick="showPanel(4,'#1F2739')">2020</button>
+        <button onclick="showPanel(5,'#1F2739')">2019</button>
+        <button onclick="showPanel(6,'#1F2739')">2018</button>
+        <button onclick="showPanel(7,'#1F2739')">2017</button>
+        <button onclick="showPanel(8,'#1F2739')">2016</button>
+        <button onclick="showPanel(9,'#1F2739')">2015</button>
+        <button onclick="showPanel(10,'#1F2739')">2014</button>
+        <button onclick="showPanel(11,'#1F2739')">2013</button>
+        <button onclick="showPanel(12,'#1F2739')">2012</button>
+        <button onclick="showPanel(13,'#1F2739')">2011</button>
+        <button onclick="showPanel(14,'#1F2739')">2010</button>
+      </div>
+      <div class="tabPanel">
+        <table class="container">
+          <thead>
+            <tr>
+              <th><h1>SN NO</h1></th>
+              <th><h1>NAME</h1></th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>01</td>
+              <td>SAHADAT ANSARY</td>
+            </tr>
+            <tr>
+              <td>02</td>
+              <td>NAJRUL ANSARY</td>
+            </tr>
+            <tr>
+              <td>03</td>
+              <td>RIJWAN ANSARY</td>
+            </tr>
+            <tr>
+              <td>04</td>
+              <td>SWAPAN KR. MAJHI</td>
+            </tr>
+            <tr>
+              <td>05</td>
+              <td>SERWAR MAHATO</td>
+            </tr>
+            <tr>
+              <td>06</td>
+              <td>ABDUL KHALEK ANSARY</td>
+            </tr>
+            <tr>
+              <td>07</td>
+              <td>JAYANTA MAHATO</td>
+            </tr>
+            <tr>
+              <td>08</td>
+              <td>ARUP KR. MAHATO</td>
+            </tr>
+            <tr>
+              <td>09</td>
+              <td>MD.HEDATULLAH ANSARY</td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>10</td>
+              <td>MASUM ANSARY</td>
+            </tr>
+            <tr>
+              <td>--</td>
+              <td><a href="http://">ALL LIST</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="tabPanel"><table class="container">
+        <thead>
+          <tr>
+            <th><h1>SN NO</h1></th>
+            <th><h1>NAME</h1></th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>01</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>02</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>03</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>04</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>05</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>06</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>07</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>08</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>09</td>
+            <td></td>
+            
+          </tr>
+
+          <tr>
+            <td>10</td>
+            <td> </td>
+          </tr>
+          <tr>
+            <td>ALL</td>
+            <td>24/33</td>
+          </tr>
+          <tr>
+            <td>--</td>
+            <td><a href="http://">ALL LIST</a></td>
+          </tr>
+        </tbody>
+      </table></div>
+      <div class="tabPanel">Tab 3:22</div>
+      <div class="tabPanel">Tab 4:21</div>
+      <div class="tabPanel">Tab 4:20</div>
+      <div class="tabPanel">Tab 4:Content19</div>
+      <div class="tabPanel">Tab 4ff:Content18</div>
+      <div class="tabPanel">Tab 4dd:Content17</div>
+      <div class="tabPanel">Tabcv 4:Content16</div>
+      <div class="tabPanel">Tab cb4cc:Content15</div>
+      <div class="tabPanel"><table class="container">
+        <thead>
+          <tr>
+            <th><h1>SN NO</h1></th>
+            <th><h1>NAME</h1></th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>01</td>
+            <td>RAJJAK ANSARY</td>
+          </tr>
+          <tr>
+            <td>02</td>
+            <td>AMRIT TUDU</td>
+          </tr>
+          <tr>
+            <td>03</td>
+            <td>RAHAMAT ANSARY</td>
+          </tr>
+          <tr>
+            <td>04</td>
+            <td>SAMSUDDIN ANSARY</td>
+          </tr>
+          <tr>
+            <td>05</td>
+            <td>EJAJ AHMED ANSARY</td>
+          </tr>
+          <tr>
+            <td>06</td>
+            <td>ARIF MAHAMMAD ANSARY</td>
+          </tr>
+          <tr>
+            <td>07</td>
+            <td>ANWAR ANSARY</td>
+          </tr>
+          <tr>
+            <td>08</td>
+            <td>KAMALUDDIN ANSARY</td>
+          </tr>
+          <tr>
+            <td>09</td>
+            <td>RAKIB ANSARY</td>
+            
+          </tr>
+
+          <tr>
+            <td>10</td>
+            <td>SABIR ANSARY</td>
+          </tr>
+          <tr>
+            <td>ALL</td>
+            <td>61/65</td>
+          </tr>
+          <tr>
+            <td>--</td>
+            <td><a href="http://">ALL LIST</a></td>
+          </tr>
+        </tbody>
+      </table></div>
+      <div class="tabPanel"><table class="container">
+        <thead>
+          <tr>
+            <th><h1>SN NO</h1></th>
+            <th><h1>NAME</h1></th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>01</td>
+            <td>MUSARAF HUSSAIN ANSARY</td>
+          </tr>
+          <tr>
+            <td>02</td>
+            <td>EKRAM ANSARY</td>
+          </tr>
+          <tr>
+            <td>03</td>
+            <td>DINESH ANSARY</td>
+          </tr>
+          <tr>
+            <td>04</td>
+            <td>ABDUS SAMAD ANSARY</td>
+          </tr>
+          <tr>
+            <td>05</td>
+            <td>SUSHANTA SOREN</td>
+          </tr>
+          <tr>
+            <td>06</td>
+            <td>KABIR ALI ANSARY</td>
+          </tr>
+          <tr>
+            <td>07</td>
+            <td>MAHIDUL ISLAM ANSARY</td>
+          </tr>
+          <tr>
+            <td>08</td>
+            <td>ABHISEK MAHATO</td>
+          </tr>
+          <tr>
+            <td>09</td>
+            <td>MANAS MAHATO</td>
+            
+          </tr>
+
+          <tr>
+            <td>10</td>
+            <td>SABIR PIYA ANSARY</td>
+          </tr>
+          <tr>
+            <td>ALL</td>
+            <td>54/60</td>
+          </tr>
+          <tr>
+            <td>--</td>
+            <td><a href="http://">ALL LIST</a></td>
+          </tr>
+        </tbody>
+      </table></div>
+      <div class="tabPanel"><table class="container">
+        <thead>
+          <tr>
+            <th><h1>SN NO</h1></th>
+            <th><h1>NAME</h1></th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>01</td>
+            <td>ABID ANSARY</td>
+          </tr>
+          <tr>
+            <td>02</td>
+            <td>TAJUDDIN ANSARY</td>
+          </tr>
+          <tr>
+            <tr>
+              <td>03</td>
+              <td>ABDUL KARIM ANSARY</td>
+            </tr>
+            <td>04</td>
+            <td>ALAM HUSSAIN ANSARY</td>
+          </tr>
+          <tr>
+            
+            <td>05</td>
+            <td>ABDUS SALAM ANSARY</td>
+          </tr>
+          
+          <tr>
+            <td>06</td>
+            <td>ASWINI HEMBRAM</td>
+          </tr>
+          <tr>
+            <td>07</td>
+            <td>AJOY HANSDA</td>
+          </tr>
+          <tr>
+            <td>08</td>
+            <td>ABDUL KALAM ANSARY</td>
+          </tr>
+          <tr>
+            <td>09</td>
+            <td>SUKDEB MAJHI</td>
+            
+          </tr>
+
+          <tr>
+            <td>10</td>
+            <td>FIROJ ANSARY</td>
+          </tr>
+          <tr>
+            <td>ALL</td>
+            <td>35/53</td>
+          </tr>
+          <tr>
+            <td>--</td>
+            <td><a href="http://">ALL LIST</a></td>
+          </tr>
+        </tbody>
+      </table></div>
+      <div class="tabPanel"><table class="container">
+        <thead>
+          <tr>
+            <th><h1>SN NO</h1></th>
+            <th><h1>NAME</h1></th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>01</td>
+            <td>MD. KALIM ANSARY</td>
+          </tr>
+          <tr>
+            <td>02</td>
+            <td>SAGOR BASKEY</td>
+          </tr>
+          <tr>
+            <td>03</td>
+            <td>MD. SERAJ ANSARY</td>
+          </tr>
+          <tr>
+            <td>04</td>
+            <td>MD. ABDUL HAMID ANSARY</td>
+          </tr>
+          <tr>
+            <td>05</td>
+            <td>SAMIM ANSARY</td>
+          </tr>
+          <tr>
+            <td>06</td>
+            <td>MD SAMIULLAHA ANSARY</td>
+          </tr>
+          <tr>
+            <td>07</td>
+            <td>ALTAP ANSARY</td>
+          </tr>
+          <tr>
+            <td>08</td>
+            <td>EMAMUDDIN ANSARY</td>
+          </tr>
+          <tr>
+            <td>09</td>
+            <td>MD MAHIBUDDIN ANSARY</td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>10</td>
+            <td>SAHABUDDIN ANSARY</td>
+          </tr>
+          <tr>
+            <td>ALL</td>
+            <td>43/44</td>
+          </tr>
+          <tr>
+            <td>--</td>
+            <td><a href="http://">ALL LIST</a></td>
+          </tr>
+        </tbody>
+      </table>
+    
+    
+    </div>
+      <div class="tabPanel">
+        <table class="container">
+          <thead>
+            <tr>
+              <th><h1>SN NO</h1></th>
+              <th><h1>NAME</h1></th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>01</td>
+              <td>SAHADAT ANSARY</td>
+            </tr>
+            <tr>
+              <td>02</td>
+              <td>NAJRUL ANSARY</td>
+            </tr>
+            <tr>
+              <td>03</td>
+              <td>RIJWAN ANSARY</td>
+            </tr>
+            <tr>
+              <td>04</td>
+              <td>SWAPAN KR. MAJHI</td>
+            </tr>
+            <tr>
+              <td>05</td>
+              <td>SERWAR MAHATO</td>
+            </tr>
+            <tr>
+              <td>06</td>
+              <td>ABDUL KHALEK ANSARY</td>
+            </tr>
+            <tr>
+              <td>07</td>
+              <td>JAYANTA MAHATO</td>
+            </tr>
+            <tr>
+              <td>08</td>
+              <td>ARUP KR. MAHATO</td>
+            </tr>
+            <tr>
+              <td>09</td>
+              <td>MD.HEDATULLAH ANSARY</td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>10</td>
+              <td>MASUM ANSARY</td>
+            </tr>
+            <tr>
+              <td>ALL</td>
+              <td>24/33</td>
+            </tr>
+            <tr>
+              <td>--</td>
+              <td><a href="http://">ALL LIST</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!--=====================================================
+				    FOOTER
+=====================================================-->
+    <footer>
+      <div class="footerContainer">
+        <div class="socialIcons">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fas fa-envelope"></i></a>
+          <a href=""><i class="fas fa-map-marker-alt"></i></a>
+          <a href=""><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="footerNav">
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact_us.html">Contact Us</a></li>
+            <li><a href="student_reviwe.html">Student Reviwe</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footerBottom">
+         <p>Copyright &copy;2024; Designed by <span class="designer"><a href="http://#">ARSED ANSARY</a></span></p>
+      </div>
+    </footer>
+
+    <!----- javascript ------>
+    <!-- <script src="JS/app.js"></script> -->
+    <script src="JS/studentz.js"></script>
+  </body>
+</html>
